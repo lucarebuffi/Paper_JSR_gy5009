@@ -7,8 +7,8 @@
 		<node id="3" name="Plane Mirror" position="(373.0, 184.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M1" version="" />
 		<node id="4" name="Plane Mirror" position="(477.0, 185.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M2" version="" />
 		<node id="5" name="Undulator" position="(345.0, 354.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" title="U2.1 - 12.0" version="" />
-		<node id="6" name="Power Density Loop Point" position="(639.0, 281.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_node_point.PowerLoopPoint" title="12 KeV" version="" />
-		<node id="7" name="APS Undulator" position="(119.0, 183.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_aps_undulator.APSUndulator" title="U2.1 - 12.0" version="" />
+		<node id="6" name="Power Density Loop Point" position="(639.0, 281.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_node_point.PowerLoopPoint" title="12 KeV" version="" />
+		<node id="7" name="Hybrid Undulator" position="(119.0, 183.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="U2.1 - 12.0" version="" />
 		<node id="8" name="Bragg" position="(419.0, 34.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_bragg.OWxsh_bragg" title="Si111" version="" />
 		<node id="9" name="Pin" position="(106.0, 284.0)" project_name="OASYS1" qualified_name="oasys.widgets.loop_management.ow_pin.Pin" title="Pin" version="" />
 		<node id="10" name="Source Spectrum" position="(463.0, 355.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_spectrum.OWSRWSpectrum" title="Source Spectrum" version="" />
@@ -23,8 +23,8 @@
 		<node id="19" name="Undulator Light Source" position="(599.0, 492.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source" version="" />
 		<node id="20" name="Plot XY" position="(962.0, 304.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Focus" version="" />
 		<node id="21" name="Screen-Slits" position="(797.0, 393.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Detail Area" version="" />
-		<node id="22" name="Power Plot XY" position="(945.0, 385.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Large) - 12 KeV" version="" />
-		<node id="23" name="Power Plot XY" position="(945.0, 494.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Detail) - 12 KeV" version="" />
+		<node id="22" name="Power Plot XY" position="(945.0, 385.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Large) - 12 KeV" version="" />
+		<node id="23" name="Power Plot XY" position="(945.0, 494.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Detail) - 12 KeV" version="" />
 		<node id="24" name="Source Power Density" position="(433.0, 491.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_power_density.OWSRWPowerDensity" title="Source Power Density" version="" />
 	</nodes>
 	<links>

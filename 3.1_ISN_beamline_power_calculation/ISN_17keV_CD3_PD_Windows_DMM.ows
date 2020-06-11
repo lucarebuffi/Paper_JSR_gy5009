@@ -2,12 +2,12 @@
 <scheme description="ISN_VHHV" title="ISN_VHHV 17 KeV + PD @ Windows + DMM" version="2.0" working_directory="/Users/lrebuffi/Oasys/APS-U/ISN/Power_Density/Windows" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" position="(203.0, -11.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="M2V Rh" version="" />
-		<node id="1" name="APS Undulator" position="(-146.0, 51.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_aps_undulator.APSUndulator" title="324bunch, 4.8m" version="" />
+		<node id="1" name="Hybrid Undulator" position="(-146.0, 51.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="324bunch, 4.8m" version="" />
 		<node id="2" name="Screen-Slits" position="(-42.0, 51.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="WBS" version="" />
 		<node id="3" name="Plane Mirror" position="(91.0, 35.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M1V" version="" />
 		<node id="4" name="Ellipsoid Mirror" position="(489.0, -74.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="M3H" version="" />
 		<node id="5" name="PreRefl" position="(47.0, -73.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="PreRefl Rh" version="" />
-		<node id="6" name="Power Density Loop Point" position="(76.0, 175.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_node_point.PowerLoopPoint" title="Power Density ISN 17 KeV" version="" />
+		<node id="6" name="Power Density Loop Point" position="(76.0, 175.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_node_point.PowerLoopPoint" title="Power Density ISN 17 KeV" version="" />
 		<node id="7" name="Undulator Light Source" position="(-157.0, 267.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source" version="" />
 		<node id="8" name="PreMLayer" position="(252.0, -119.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer.OWxsh_pre_mlayer" title="PreMLayer" version="" />
 		<node id="9" name="Plane Mirror" position="(307.0, -18.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="DMM1" version="" />
@@ -24,12 +24,12 @@
 		<node id="20" name="Plot XY" position="(1137.0, -267.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Window 2" version="" />
 		<node id="21" name="Plot XY" position="(1106.0, -144.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Window 1" version="" />
 		<node id="22" name="Empty Element" position="(865.0, -25.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_empty_element.EmptyElement" title="Window 1" version="" />
-		<node id="23" name="Power Plot XY" position="(901.0, 91.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Window 1" version="" />
+		<node id="23" name="Power Plot XY" position="(901.0, 91.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Window 1" version="" />
 		<node id="24" name="Empty Element" position="(1067.0, -26.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_empty_element.EmptyElement" title="Window 2" version="" />
-		<node id="25" name="Power Plot XY" position="(1123.0, 91.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Window 2" version="" />
+		<node id="25" name="Power Plot XY" position="(1123.0, 91.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Window 2" version="" />
 		<node id="26" name="Empty Element" position="(1006.0, -217.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_empty_element.EmptyElement" title="Plots" version="" />
 		<node id="27" name="Empty Element" position="(961.0, -22.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.special_elements.ow_empty_element.EmptyElement" title="Sample" version="" />
-		<node id="28" name="Power Plot XY" position="(1021.0, 89.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Sample" version="" />
+		<node id="28" name="Power Plot XY" position="(1021.0, 89.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Sample" version="" />
 		<node id="29" name="Info" position="(1328.0, -88.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
 	</nodes>
 	<links>

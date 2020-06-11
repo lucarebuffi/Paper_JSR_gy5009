@@ -7,9 +7,9 @@
 		<node id="3" name="Plane Mirror" position="(331.0, 184.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M1" version="" />
 		<node id="4" name="Plane Mirror" position="(464.0, 184.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M2" version="" />
 		<node id="5" name="Undulator" position="(426.0, 359.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_undulator.OWSRWUndulator" title="U2.1 - 10" version="" />
-		<node id="6" name="Power Density Loop Point" position="(725.0, 283.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_node_point.PowerLoopPoint" title="10KeV" version="" />
+		<node id="6" name="Power Density Loop Point" position="(725.0, 283.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_node_point.PowerLoopPoint" title="10KeV" version="" />
 		<node id="7" name="Screen-Slits" position="(219.0, 185.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Front-End Mask" version="" />
-		<node id="8" name="APS Undulator" position="(89.0, 185.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_aps_undulator.APSUndulator" title="U2.1 - 10.0" version="" />
+		<node id="8" name="Hybrid Undulator" position="(89.0, 185.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="U2.1 - 10.0" version="" />
 		<node id="9" name="Bragg" position="(419.0, 34.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_bragg.OWxsh_bragg" title="Si111" version="" />
 		<node id="10" name="Pin" position="(75.0, 284.0)" project_name="OASYS1" qualified_name="oasys.widgets.loop_management.ow_pin.Pin" title="Pin" version="" />
 		<node id="11" name="Source Spectrum" position="(549.0, 357.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_spectrum.OWSRWSpectrum" title="Source Spectrum" version="" />
@@ -22,9 +22,9 @@
 		<node id="18" name="Info" position="(908.0, 295.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info (1)" version="" />
 		<node id="19" name="Plot XY" position="(1024.0, 200.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Focus" version="" />
 		<node id="20" name="Undulator Light Source" position="(526.0, 483.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source" version="" />
-		<node id="21" name="Power Plot XY" position="(1025.0, 370.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Detail) - 10 KeV" version="" />
+		<node id="21" name="Power Plot XY" position="(1025.0, 370.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Detail) - 10 KeV" version="" />
 		<node id="22" name="Screen-Slits" position="(894.0, 433.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Detail" version="" />
-		<node id="23" name="Power Plot XY" position="(1021.0, 483.0)" project_name="OASYS1-APS-Extensions" qualified_name="orangecontrib.aps.shadow.widgets.extension.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Large) - 10 KeV" version="" />
+		<node id="23" name="Power Plot XY" position="(1021.0, 483.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="Power Plot XY (Large) - 10 KeV" version="" />
 		<node id="24" name="Source Power Density" position="(423.0, 478.0)" project_name="OASYS1-SRW" qualified_name="orangecontrib.srw.widgets.light_sources.ow_srw_power_density.OWSRWPowerDensity" title="Source Power Density" version="" />
 	</nodes>
 	<links>
