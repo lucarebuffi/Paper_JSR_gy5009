@@ -4,7 +4,7 @@
 		<node id="0" name="Undulator Light Source" position="(81.0, 254.0)" project_name="OASYS1-SYNED" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" title="Undulator Light Source" version="" />
 		<node id="1" name="Undulator Spectrum" position="(388.0, 271.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" title="Undulator Spectrum" version="" />
 		<node id="2" name="Power Plot XY" position="(780.0, 45.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="50" version="" />
-		<node id="3" name="Hybrid Undulator" position="(252.0, 49.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator" version="" />
+		<node id="3" name="Hybrid Undulator" position="(252.0, 49.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator" version="" />
 		<node id="4" name="Screen-Slits" position="(437.0, 51.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Screen-Slits" version="" />
 		<node id="5" name="Power Plot XY" position="(804.0, 452.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_plot_xy.PowerPlotXY" title="100" version="" />
 		<node id="6" name="Power Density Loop Point" position="(538.0, 622.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_power_node_point.PowerLoopPoint" title="CP 100 bin" version="" />
@@ -23,9 +23,9 @@
 		<node id="19" name="Screen-Slits" position="(1082.0, 80.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Screen-Slits (1)" version="" />
 		<node id="20" name="Screen-Slits" position="(1122.0, 318.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Screen-Slits (1) (1)" version="" />
 		<node id="21" name="Screen-Slits" position="(538.0, 411.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Screen-Slits (2)" version="" />
-		<node id="22" name="Hybrid Undulator" position="(961.0, 315.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3)" version="" />
-		<node id="23" name="Hybrid Undulator" position="(944.0, 80.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3) (1)" version="" />
-		<node id="24" name="Hybrid Undulator" position="(408.0, 409.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3) (1) (1)" version="" />
+		<node id="22" name="Hybrid Undulator" position="(961.0, 315.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3)" version="" />
+		<node id="23" name="Hybrid Undulator" position="(944.0, 80.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3) (1)" version="" />
+		<node id="24" name="Hybrid Undulator" position="(408.0, 409.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" title="Hybrid Undulator (3) (1) (1)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="SynedData" sink_node_id="1" source_channel="SynedData" source_node_id="0" />

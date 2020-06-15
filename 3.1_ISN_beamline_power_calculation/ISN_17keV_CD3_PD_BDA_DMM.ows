@@ -2,7 +2,7 @@
 <scheme description="ISN_VHHV" title="ISN_VHHV 17 KeV + PD @ BDA + DMM" version="2.0" working_directory="/Users/lrebuffi/Oasys/Paper_PD/ISN/DMM" workspace_units="2">
 	<nodes>
 		<node id="0" name="Ellipsoid Mirror" position="(219.0, -10.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="M2V Rh" version="" />
-		<node id="1" name="Hybrid Undulator" position="(-146.0, 51.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.thermal.ow_hybrid_undulator.HybridUndulator" title="324bunch, 4.8m" version="" />
+		<node id="1" name="Hybrid Undulator" position="(-146.0, 51.0)" project_name="OASYS1-ShadowOui-Advanced-Tools" qualified_name="orangecontrib.shadow_advanced_tools.widgets.sources.ow_hybrid_undulator.HybridUndulator" title="324bunch, 4.8m" version="" />
 		<node id="2" name="Screen-Slits" position="(-42.0, 51.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="WBS" version="" />
 		<node id="3" name="Plane Mirror" position="(91.0, 35.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="M1V" version="" />
 		<node id="4" name="Ellipsoid Mirror" position="(709.0, -58.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_ellipsoid_mirror.EllipsoidMirror" title="M3H" version="" />
