@@ -6,4 +6,4 @@ To correctly run the simulations, please install the OASYS add-on: **OASYS1-Shad
 
 Then, open the Oasys "Preferences" form, select tab "Applications" and set "ShadowOui: Send footprint beam" to "Yes"
 
-<img src=“https://github.com/KrisKasprzak/ILI9341_t3_controls”>
+<img src=“Footprint_Beam.png”>
