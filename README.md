@@ -6,4 +6,4 @@ To correctly run the simulations, please install the OASYS add-on: **OASYS1-Shad
 
 Then, open the Oasys "Preferences" form, select tab "Applications" and set "ShadowOui: Send footprint beam" to "Yes"
 
-<img src=“Footprint_Beam.png”>
+<img src=“https://github.com/lucarebuffi/Paper_JSR_gy5009/blob/master/Footprint_Beam.png”>
